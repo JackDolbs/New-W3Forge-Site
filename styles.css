@@ -1,0 +1,244 @@
+/* styles.css */
+
+body {
+    font-family: Inter;
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px 0; /* Only vertical padding */
+    border-bottom: 0.25px solid #938F8F;
+    background-color: #000; /* Same as body background to ensure consistency */
+    z-index: 10;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%; 
+    margin: 0 auto; 
+    padding: 0 20px; /* Horizontal padding */
+}
+
+
+.logo img {
+    height: 25px; /* Adjust based on your logo's size */
+}
+
+nav.header-right {
+    display: flex;
+    gap: 20px;
+}
+
+nav.header-right a.icon {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 20px; /* Adjust based on your icon size */
+    width: 20px; /* Adjust based on your icon size */
+}
+
+nav.header-right a.icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    flex: 1 0 auto;
+    margin: auto 0;
+}
+
+.notification {
+    background-color: rgba(51, 51, 51, 0.5); 
+    padding: 10px 10px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #B6B6B6;
+    border: 0.5px solid #B6B6B6;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 500px; /* Adjust for better readability */
+    margin-bottom: 60px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.btn {
+    padding: 10px 50px;
+    background-color: #FF585F;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer {
+    color: #938F8F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    flex-shrink: 0; /* This ensures the footer does not shrink smaller than its natural size */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #FF585F, #F9969A);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a {
+    color: #938F8F;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px 12px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 14px;
+    z-index: 1000;
+    margin-bottom: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+}
+
+.teaser:hover .tooltip {
+    display: block;
+}
+
+.teaser {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.teaser:hover {
+    text-decoration: none;
+}
+
+.gradient-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.notification a:hover {
+    background-color: transparent;
+}
+
+.notification:hover {
+    transform: translateY(-5px);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.notification-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+    height: 20px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-content-container {
+    z-index: 10;
+    position: relative;
+}
+
+.about-section {
+    padding: 50px 10%;
+    background-color: #f5f5f5;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* This will make the wrapper grow and consume available space */
+}
+
+main {
+    flex: 1; /* This ensures the main content grows to take up all available space */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+}
