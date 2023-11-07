@@ -1,5 +1,47 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/Fonts/AeonikTRIAL-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/Fonts/AeonikTRIAL-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/Fonts/AeonikTRIAL-Light.otf') format('opentype');
+    font-weight: 300; /* Example weight for 'light'. Adjust as needed. */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/Fonts/AeonikTRIAL-RegularItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/Fonts/AeonikTRIAL-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/Fonts/AeonikTRIAL-LightItalic.otf') format('opentype');
+    font-weight: 300; /* Example weight for 'light italic'. Adjust as needed. */
+    font-style: italic;
+}
+
 body {
-    font-family: Inter;
+    font-family: Aeonik;
     color: #fff;
     background-color: #0a0a0a; /* Deep smoky black */
     margin: 0;
