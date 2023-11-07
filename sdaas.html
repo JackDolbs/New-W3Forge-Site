@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Software Development as a Service by w3forge</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="sdaas.css">
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Development as a Service by w3forge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sdaas.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
 
-    <body>
+    <div class="landing-page">
 
-        <div class="landing-page">
-
-            <!-- Logo -->
-            <div class="logo-section">
-                <a href="https://www.w3forge.xyz" class="logo"><img src="images/w3forgelogo.png" alt="w3forge Logo"></a>
-            </div>
-        
-            <!-- Main H1 title -->
-            <div class="title-section">
-                <h1>Using Our Agile Methodology<br><span class="highlight">Increases Sales</span> In B2B. Period.</h1>
-            </div>            
-        
-            <!-- Video Embed -->
-            <div class="video-section">
-                <!-- Your Loom Video Embed Code Here -->
-                <iframe width="800" height="403" src="https://www.loom.com/embed/26b73d9136dc40aa94d0f344e47938e4?sid=fb41d7e5-0529-45a1-a202-57845bb9d1a6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>        
-            
-            </div>
-
-            <!-- Call to Action Button -->
-            <div class="cta-section">
-                <button class="cta-button" onclick="location.href='#calendlyWidget'">Let's Talk</button>
-            </div>
-        
-            <div class="content-container">
-
-                <!-- What is Kintsugi section -->
-                <section class="explanatory-section">
-                    <h2 class="sub-heading">What Is Kintsugi</h2>
-                    <p>We help early-stage B2B startups in Web3 & AI monetize quicker and build more iteratively. Most startups we partner with are pre-revenue. They are also typically looking to enhance existing development capacity.</p>
-                </section>
-            
-                <!-- Who is it for section -->
-                <section class="explanatory-section">
-                    <h2 class="sub-heading">Who Is It For</h2>
-                    <p>Our mission is to help our partner startups find market fit, begin monetizing early, and reach profitability without the overheads of hiring an entire team. Our goal is to make reaching profitability possible for the equivalent cost of just one entry-level developer. We value being agile, lean, and pliable.</p>
-                </section>
-            
-                <!-- How it works section -->
-                <section class="explanatory-section">
-                    <h2 class="sub-heading">How It Works</h2>
-                    <p>We have a SDaaS (software-development-as-a-subscription) model, where we directly engage in product development, while also contributing to the sales process.</p>
-                </section>
-            
-                <!-- How to get started section -->
-                <section class="explanatory-section">
-                    <h2 class="sub-heading">How To Get Started</h2>
-                    <p>If you’re a founder and you're preparing to raise and/or ship your product, book a slot to discuss your project and see if Kaizen is right for you. Have any questions? Contact us at <a href="mailto:info@w3forge.xyz">info@w3forge.xyz</a>.</p>
-                </section>
-            
-            </div>            
-        
-            <!-- Calendly Embed -->
-            <div class="calendly-section" id="calendlyWidget">
-                <!-- Your Calendly Embed Code Here -->
-                <div class="calendly-inline-widget" data-url="https://calendly.com/w3forge/w3forge-discovery-call" style="min-width:320px;height:700px;"></div>
-                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            </div>
-        
-            <footer>
-                <p class="footer">© 2023 All rights reserved <a href="/privacy">Privacy Policy</a> | <a href="/disclaimer">Disclaimer</a></p>
-            </footer>
+        <!-- Logo -->
+        <div class="logo-section">
+            <a href="https://www.w3forge.xyz" class="logo"><img src="images/w3forgelogo.png" alt="w3forge Logo"></a>
+        </div>
+    
+        <!-- Main H1 title -->
+        <div class="title-section">
+            <h1>Using Our Agile Methodology<br><span class="highlight">Increases Sales</span> In B2B. Period.</h1>
+        </div>            
+    
+        <!-- Video Embed -->
+        <div class="video-section">
+            <!-- Your Loom Video Embed Code Here -->
+            <iframe width="800" height="403" src="https://www.loom.com/embed/26b73d9136dc40aa94d0f344e47938e4?sid=fb41d7e5-0529-45a1-a202-57845bb9d1a6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>        
         
         </div>
 
-    </body>
+        <!-- Call to Action Button -->
+        <div class="cta-section">
+            <!-- Removed the 'onclick' attribute and added an 'id' -->
+            <button id="cta-button" class="cta-button">Let's Talk</button>
+        </div>
+    
+        <div class="content-container">
+
+            <!-- What is Kintsugi section -->
+            <section class="explanatory-section">
+                <h2 class="sub-heading">What Is Kintsugi</h2>
+                <p>We help early-stage B2B startups in Web3 & AI monetize quicker and build more iteratively. Most startups we partner with are pre-revenue. They are also typically looking to enhance existing development capacity.</p>
+            </section>
+        
+            <!-- Who is it for section -->
+            <section class="explanatory-section">
+                <h2 class="sub-heading">Who Is It For</h2>
+                <p>Our mission is to help our partner startups find market fit, begin monetizing early, and reach profitability without the overheads of hiring an entire team. Our goal is to make reaching profitability possible for the equivalent cost of just one entry-level developer. We value being agile, lean, and pliable.</p>
+            </section>
+        
+            <!-- How it works section -->
+            <section class="explanatory-section">
+                <h2 class="sub-heading">How It Works</h2>
+                <p>We have a SDaaS (software-development-as-a-subscription) model, where we directly engage in product development, while also contributing to the sales process.</p>
+            </section>
+        
+            <!-- How to get started section -->
+            <section class="explanatory-section">
+                <h2 class="sub-heading">How To Get Started</h2>
+                <p>If you’re a founder and you're preparing to raise and/or ship your product, book a slot to discuss your project and see if Kaizen is right for you. Have any questions? Contact us at <a href="mailto:info@w3forge.xyz">info@w3forge.xyz</a>.</p>
+            </section>
+        
+        </div>            
+    
+        <!-- Calendly Embed -->
+        <div class="calendly-section" id="calendlyWidget">
+            <!-- Your Calendly Embed Code Here -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/w3forge/w3forge-discovery-call" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
+    
+        <footer>
+            <p class="footer">© 2023 All rights reserved <a href="/privacy">Privacy Policy</a> | <a href="/disclaimer">Disclaimer</a></p>
+        </footer>
+    
+    </div>
+
+    <script>
+        // Make sure the script runs after the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Use the correct ID to select the button
+            document.getElementById('cta-button').addEventListener('click', function(e) {
+                e.preventDefault(); // Prevents the default anchor behavior
+                document.getElementById('calendlyWidget').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
 </html>
