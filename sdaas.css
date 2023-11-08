@@ -169,3 +169,41 @@ html {
 .cta-button:active {
     transform: translateY(1px);
 }
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    /* Shared styles for both orientations */
+    .content-container, .cta-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .title-section h1 {
+        font-size: 2.2em; /* Smaller font size for mobile */
+        line-height: 1.2; /* Tighter line spacing */
+    }
+
+    .cta-button {
+        padding: 12px 30px; /* Appropriate padding for mobile */
+        font-size: 1.5rem; /* Larger font size for readability */
+        display: block; /* Ensure it's block-level for full-width tap target */
+        width: 100%; /* Full width of the container */
+        box-sizing: border-box; /* Includes padding in width calculation */
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Adjustments specific to landscape orientation */
+    .title-section h1 {
+        font-size: 1.8em; /* Adjust font size for landscape */
+    }
+
+    /* Adjust padding for elements that might be too close to the viewport edges */
+    .content-container, .cta-section, .video-section iframe {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .video-section iframe {
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
+}
