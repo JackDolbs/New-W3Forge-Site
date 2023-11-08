@@ -173,7 +173,7 @@ p {
 @media (max-width: 768px) {
     /* Apply padding to the main text container */
     .about-section {
-        padding: 0 20px; /* Adjust the value as needed */
+        padding: 0 40px; /* Adjust the value as needed */
     }
 
     /* Header styles from the homepage CSS */
