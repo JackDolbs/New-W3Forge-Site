@@ -289,3 +289,66 @@ main {
     display: block;
     opacity: 1; /* Make sure to set the opacity to 1 to ensure it's visible */
 }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    header .header-content {
+        padding: 15px 10px; /* Reduced horizontal padding and added vertical padding */
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        height: auto; /* Adjust logo size */
+        width: 80%; /* Use full width for mobile */
+        max-width: 300px; /* Set a max-width to the logo */
+        margin-bottom: 20px; /* Add some space below the logo */
+    }
+
+    nav.header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .notification {
+        margin-bottom: 20px; /* Increase space below the notification bar */
+    }
+
+    .container {
+        padding: 0 10px; /* Reduce the padding on the sides */
+    }
+
+    h1 {
+        font-size: 36px; /* Reduce the font size for h1 */
+        line-height: 1.2; /* Adjust line height for better readability */
+        margin-bottom: 20px; /* Increase space below the h1 */
+    }
+
+    p {
+        font-size: 16px; /* Reduce the font size for paragraphs */
+        margin-bottom: 30px; /* Increase space below the paragraph */
+    }
+
+    .cta-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center align the buttons */
+        gap: 20px; /* Increase space between buttons */
+    }
+
+    .btn, .teaser {
+        width: 100%; /* Full width buttons on mobile */
+        text-align: center; /* Center the text inside buttons */
+    }
+
+    .footer {
+        margin-top: 20px; /* Increase space above the footer */
+        margin-bottom: 20px; /* Increase space below the footer */
+        padding: 0 10px; /* Add padding to the footer content */
+    }
+
+    /* Add any other mobile-specific styles here */
+}
