@@ -354,7 +354,7 @@ main {
 }
 
 /* Mobile landscape optimizations */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
     .container {
         padding-top: 50px; /* Add more space at the top */
         padding-bottom: 50px; /* Add more space at the bottom */
