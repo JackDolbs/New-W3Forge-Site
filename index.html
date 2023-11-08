@@ -53,6 +53,26 @@
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="particles-setup.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var teaser = document.querySelector('.teaser');
+            var tooltip = teaser.querySelector('.tooltip');
+        
+            function toggleTooltip() {
+                tooltip.classList.toggle('tooltip-visible');
+            }
+        
+            teaser.addEventListener('touchstart', toggleTooltip);
+        
+            window.addEventListener('touchstart', function(event) {
+                if (!teaser.contains(event.target)) {
+                    tooltip.classList.remove('tooltip-visible');
+                }
+            });
+        });
+        </script>
+        </body>
+         
 
 </body>
 </html>

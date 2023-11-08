@@ -284,3 +284,8 @@ main {
     flex-direction: column;
     justify-content: center; 
 }
+
+.tooltip-visible {
+    display: block;
+    opacity: 1; /* Make sure to set the opacity to 1 to ensure it's visible */
+}
