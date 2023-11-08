@@ -102,7 +102,7 @@ a {
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 0 0 20px 3px #FF585F; /* Glow effect */
+    box-shadow: 0 0 10px 3px #FF585F; /* Glow effect */
 }
 
 .content-container {
