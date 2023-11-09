@@ -362,3 +362,10 @@ main {
         padding-bottom: 50px; /* Add more space at the bottom */
     }
 }
+.gradient-text {
+    background: linear-gradient(45deg, #FF585F, #F9969A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
