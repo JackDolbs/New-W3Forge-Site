@@ -217,9 +217,12 @@ a {
     z-index: -1;
 }
 
+.btn, .notification {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
 .btn:hover {
     transform: translateY(-10px);
-    transition: background-color 0.3s, transform 0.3s;
 }
 
 .notification a:hover {
@@ -228,7 +231,6 @@ a {
 
 .notification:hover {
     transform: translateY(-5px);
-    transition: background-color 0.3s, transform 0.3s;
 }
 
 .notification-icon {
