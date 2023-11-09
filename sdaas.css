@@ -42,7 +42,7 @@
 
 body {
     font-family: Aeonik;
-    color: #fff;
+    color: #f1f1f1;
     background-color: #0a0a0a; /* Deep smoky black */
     margin: 0;
     padding: 0;
@@ -124,6 +124,7 @@ p {
     max-width: 800px;
     margin: 0 auto 20px auto;
     text-align: left;
+    opacity: 95%;
 }
 
 .calendly-section {

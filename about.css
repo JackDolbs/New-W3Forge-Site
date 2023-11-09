@@ -43,7 +43,7 @@
 body {
     font-family: Aeonik;
     background-color: #000000;
-    color: #fff;
+    color: #f1f1f1;
     margin: 0;
     padding: 0;
     display: flex;
@@ -162,6 +162,7 @@ p {
     margin-bottom: 20px;
     text-align: left;
     font-size: 18px;
+    opacity: 95%;
 }
 
 .lets-talk-btn {
