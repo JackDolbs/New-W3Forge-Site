@@ -83,14 +83,32 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
+
+/* Partners Section CSS */
+.partners-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.partners-section h2 {
+    color: #fff; /* Adjust text color if necessary */
+    font-size: 2rem; /* Adjust font size if necessary */
+    margin-bottom: 50px;
+}
+
+.partner-logo{
+    height: 30px;
+    padding-right: 50px;
+}
+
 
 .cta-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .cta-button {
