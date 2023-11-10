@@ -1,20 +1,20 @@
 particlesJS('particles-js', {
     particles: {
       number: {
-        value: 15, /* Number of particles */
+        value: 30, /* Number of particles */
         density: {
           enable: true,
           value_area: 800
         }
       },
       color: {
-        value: '#ffffff' /* Particle color */
+        value: '#212427' /* Particle color */
       },
       shape: {
         type: 'circle',
       },
       opacity: {
-        value: 0.3, /* Particle opacity */
+        value: 0.5, /* Particle opacity */
         random: false
       },
       size: {
@@ -24,7 +24,7 @@ particlesJS('particles-js', {
       line_linked: {
         enable: true,
         distance: 150, /* Distance to draw a line between two particles */
-        color: '#ffffff', /* Line color */
+        color: '#212427', /* Line color */
         opacity: 0.4, /* Line opacity */
         width: 1 /* Line width */
       },
