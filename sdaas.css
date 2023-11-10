@@ -103,6 +103,15 @@ a {
     padding-right: 50px;
 }
 
+.nefture{
+    height: 30px;
+    padding-right: 50px;
+}
+
+.blockmind{
+    height: 30px;
+    padding-right: 50px;
+}
 
 .cta-section {
     display: flex;
@@ -224,5 +233,65 @@ html {
 
     .video-section iframe {
         height: auto; /* Adjust height to maintain aspect ratio */
+    }
+}
+
+/* Mobile optimizations for partners logos */
+@media (max-width: 768px) {
+    .partners-logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partner-logo {
+        /* Remove padding-right for mobile */
+        padding-right: 0;
+        /* Add space between logos */
+        padding-bottom: 20px;
+        /* Adjust if logos need to maintain aspect ratio */
+        height: auto;
+        /* Set a consistent max-height for all logos */
+        max-height: 40px; /* Adjust based on your preference */
+        /* Adjust width to maintain aspect ratio */
+        width: auto;
+        /* Set a max-width based on the original width of the largest logo */
+        max-width: 100%;
+    }
+
+    .partner-logo:last-child {
+        /* Remove padding-bottom for the last logo */
+        padding-bottom: 0;
+    }
+
+    .nefture {
+        max-height: 30px;
+         /* Remove padding-right for mobile */
+        padding-right: 0;
+        /* Add space between logos */
+        padding-bottom: 20px;
+        /* Adjust if logos need to maintain aspect ratio */
+        height: auto;
+        /* Set a consistent max-height for all logos */
+        /* Adjust width to maintain aspect ratio */
+        width: auto;
+        /* Set a max-width based on the original width of the largest logo */
+        max-width: 100%;
+    }
+
+    .blockmind {
+        max-height: 37px;
+         /* Remove padding-right for mobile */
+        padding-right: 0;
+        /* Add space between logos */
+        padding-bottom: 20px;
+        /* Adjust if logos need to maintain aspect ratio */
+        height: auto;
+        /* Set a consistent max-height for all logos */
+        /* Adjust width to maintain aspect ratio */
+        width: auto;
+        /* Set a max-width based on the original width of the largest logo */
+        max-width: 100%;
     }
 }
