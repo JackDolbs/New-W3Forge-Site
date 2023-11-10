@@ -44,7 +44,7 @@
 
 body {
     font-family: Aeonik;
-    background-color: #000000;
+    background-color: #130f0b;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -56,7 +56,7 @@ body {
 header {
     padding: 20px 0; /* Only vertical padding */
     border-bottom: 0.25px solid #938F8F;
-    background-color: #000; /* Same as body background to ensure consistency */
+    background-color: #130f0b; /* Same as body background to ensure consistency */
     z-index: 10;
     position: relative;
 }
